@@ -1,0 +1,60 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.custom-list {
+    list-style-type:lower-alpha;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-list li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.custom-list li:before {
+    content: ".";
+    position: absolute;
+    left: 0;
+    color: #ffffff; /* Change color as needed */
+}
+.leukemia-image {
+text-align: left;
+    width: 100%;
+    max-width: 300px; /* Adjust the width as needed */
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.left {
+    flex: 1; /* Take 1/3 of the container */
+    padding-right: 20px; /* Add some space between the image and content */
+}
+
+.right {
+    flex: 2; /* Take 2/3 of the container */
+}

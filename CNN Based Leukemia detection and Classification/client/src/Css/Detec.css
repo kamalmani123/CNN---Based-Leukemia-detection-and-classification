@@ -1,0 +1,146 @@
+.containerScans {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.leftscan {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
+.scan-p {
+  font-size: 23px;
+  text-align: center;
+  color: #fff;
+}
+
+.rightscan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 0 30px;
+}
+
+.ig {
+  margin: 20px;
+  width: 50%;
+  height: 250px;
+  background-color: beige;
+}
+
+.scbt {
+  margin-top: 10px;
+  background-color: #000000;
+  color: white;
+  padding: 15px 30px; /* Increased padding */
+  text-align: center;
+  text-decoration: none; /* Changed to none */
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 25px; /* Changed radius */
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.scbt:hover {
+  background-color: #222222; /* Darker color on hover */
+}
+
+.image-container {
+  margin-top: 30px;
+  width: 500px;
+  height: 400px;
+  border: 5px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-style: dashed;
+  border-radius: 5px;
+}
+
+.image-container img {
+  width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+}
+
+.scan-bt {
+  display: flex;
+  justify-content: center;
+}
+
+.input-scan {
+  font-size: medium;
+  color: #fff;
+  padding: 10px;
+}
+
+.scan-clear {
+  position: absolute;
+  color: #000;
+  margin-top: 10px;
+  font-size: medium;
+  right: 20px; /* Adjusted position */
+  padding: 10px 20px; /* Adjusted padding */
+  background-color: #fff;
+}
+
+.scan-clear:hover {
+  background-color: #eee; /* Lighter color on hover */
+}
+
+.scan-head {
+  font-size: 40px;
+  margin-top: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.prediction {
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+.scan-predict {
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.remedies {
+  list-style: none;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+.rem {
+  color: #fff;
+  line-height: normal;
+  text-align: justify;
+}
+
+.scbt1 {
+  background-color: #000000;
+  border: 2px solid #fff;
+  color: white;
+  padding: 15px 30px; /* Increased padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 25px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}

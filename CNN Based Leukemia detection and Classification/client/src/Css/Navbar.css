@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #232323; /* Background color of the navbar */
+    color: #fff; /* Text color of the navbar */
+    padding: 10px;
+    border-style:groove;
+     border-color:rgb(216, 216, 216);
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .name {
+    margin: 0;
+  }
+  
+  ul {
+    font-size:x-large;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+  }
+  
+  ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  ul li a {
+    color: #fff; /* Text color of the links */
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    color: #f65050; /* Text color on hover */
+  }
+  
